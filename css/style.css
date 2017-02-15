@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+.page__wrap{
+  display: flex;
+  align-content: stretch;
+  background: #408E2F;
+  height: 100vh;
+  flex-wrap: wrap;
+  min-width: 1024px;
+}
+.header{
+  background: #ED6A5A;
+  width: 100%;
+  height: 15%;
+}
+.content__section{
+  display: flex;
+  width: 100%;
+  background: #6BCD56;
+  height: 75%;
+}
+.content__block{
+  background: #FAFAFF;
+  width: 75%;
+}
+.sidebar{
+  background: #FFD166;
+  width: 25%;
+}
+.footer{
+  background: #4394DB;
+  width: 100%;
+  height: 10%;
+}
+.header, .content__block, .sidebar, .footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  font-size: 36px;
+  color: #30343F;
+}
